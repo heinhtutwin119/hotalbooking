@@ -1,0 +1,62 @@
+<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings - Paradise Hotels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Paradise Hotels</h1>
+            </div>
+            <nav>
+                <!-- <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.html#hotels">Hotels</a></li>
+                    <li><a href="bookings.html" class="active">My Bookings</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul> -->
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php#hotels">Hotels</a></li>
+                    <li><a href="bookings.html" class="active">My Bookings</a></li>
+                    <li><a href="index.php#contact">Contact</a></li>
+                </ul> 
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login-btn">Login</button>
+                <button class="btn signup-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="my-bookings">
+        <div class="container">
+            <h2>My Bookings</h2>
+            <div id="bookings-container">
+                <!-- Bookings will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Same footer content as index.html -->
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Paradise Hotels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+?>
