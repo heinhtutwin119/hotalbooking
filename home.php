@@ -73,7 +73,7 @@ if ($user) {
                     <li><a href="bookings.html">My Bookings</a></li>
                 </ul>
             </nav>
-            <div class="auth-buttons navbar-nav">
+            <div class="auth-buttons navbar-nav" style="display: inline;">
                 <!-- <a href="home.php"><button class="btn login-btn">Login</button></a> -->
                 <a href="profile.php" class="nav-link name" style="display: inline;" > 
                         
@@ -82,7 +82,7 @@ if ($user) {
     <?php else: ?>
         <img src="photo/default.png" alt="Default Photo" class="profile-img">
     <?php endif; ?><?= $user->name?> </a>
-                <a href="register.php"><button class="btn signup-btn">Sign Up</button></a>
+                <!-- <a href="register.php"><button class="btn signup-btn">Sign Up</button></a> -->
             </div>
             <div id="user-profile" style="display: none;">
                 <!-- Will be filled by JavaScript -->
@@ -274,8 +274,8 @@ if ($user) {
                     <h3>Contact Us</h3>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> 123 Hotel Street, City</li>
-                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
-                        <li><i class="fas fa-envelope"></i> info@paradisehotels.com</li>
+                        <li><i class="fas fa-phone"></i> 09-883492575</li>
+                        <li><i class="fas fa-envelope"></i> heinwin164@gmail.com</li>
                     </ul>
                 </div>
             </div>
